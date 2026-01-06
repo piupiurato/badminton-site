@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Núcleo de Badminton - Desporto Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="images/1.jpg" alt="Logo Badminton" class="logo">
+            <h1>Núcleo de Badminton</h1>
+            <p>Desporto Escolar</p>
+        </div>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#horarios">Horários</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Núcleo</h2>
+            <p>O Núcleo de Badminton do Desporto Escolar tem como objetivo promover a prática do badminton entre os alunos, incentivar o espírito desportivo e formar atletas de alto nível.</p>
+        </div>
+    </section>
+
+    <!-- Horários -->
+    <section id="horarios">
+        <div class="container">
+            <h2>Horários de Treino</h2>
+            <ul>
+                <li>Segunda-feira: 16h00 - 18h00</li>
+                <li>Quarta-feira: 16h00 - 18h00</li>
+                <li>Sexta-feira: 15h30 - 17h30</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Eventos -->
+    <section id="eventos">
+        <div class="container">
+            <h2>Próximos Eventos</h2>
+            <ul>
+                <li>Torneio Interescolar - 15 de Fevereiro</li>
+                <li>Campeonato Regional - 10 de Março</li>
+                <li>Exibição de Badminton - 25 de Março</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Email: badminton@escolar.pt</p>
+            <p>Telefone: +351 912 345 678</p>
+            <p>Local: Pavilhão Gimnodesportivo Escolar</p>
+        </div>
+    </section>
+
+    <!-- Inscrição -->
+
+    <!-- Formulário de Inscrição -->
+	<section id="inscricao">
+	    <div class="container">
+	        <h2>Inscrição de Novos Alunos</h2>
+	        <p>Preencha o formulário abaixo para se inscrever no Núcleo de Badminton do Desporto Escolar:</p>
+	        <form action="https://formsubmit.co/ruben.developer1@gmail.com" method="POST" id="form-inscricao">
+	            <label for="nome">Nome completo:</label>
+	            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+	            <label for="idade">Idade:</label>
+	            <input type="number" id="idade" name="idade" placeholder="Sua idade" required min="6" max="100">
+
+	            <label for="turma">Turma:</label>
+	            <input type="text" id="turma" name="turma" placeholder="Ex: 10ºA" required>
+
+	            <label for="email">Email:</label>
+	            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+	            <label for="telefone">Telefone:</label>
+	            <input type="tel" id="telefone" name="telefone" placeholder="+351 912 345 678" required>
+
+	            <label for="observacoes">Observações:</label>
+	            <textarea id="observacoes" name="observacoes" rows="4" placeholder="Alguma informação extra"></textarea>
+
+	            <button type="submit">Enviar Inscrição</button>
+	        </form>
+	    </div>
+	</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Núcleo de Badminton do Desporto Escolar</p>
+    </footer>
+</body>
+</html>
